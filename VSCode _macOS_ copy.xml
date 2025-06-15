@@ -1,8 +1,28 @@
 <keymap version="1" name="VSCode (macOS) copy" parent="VSCode OSX">
+  <action id="$Redo">
+    <keyboard-shortcut first-keystroke="shift meta z" />
+    <keyboard-shortcut first-keystroke="shift alt back_space" />
+    <keyboard-shortcut first-keystroke="meta y" />
+  </action>
+  <action id="ActivateAIAssistantToolWindow">
+    <keyboard-shortcut first-keystroke="meta 6" />
+  </action>
+  <action id="ActivateElectroJunToolWindowToolWindow">
+    <keyboard-shortcut first-keystroke="meta alt 6" />
+  </action>
   <action id="Back">
     <keyboard-shortcut first-keystroke="ctrl minus" />
     <mouse-shortcut keystroke="button4" />
     <keyboard-shortcut first-keystroke="meta minus" />
+  </action>
+  <action id="CodeCompletion">
+    <keyboard-shortcut first-keystroke="meta i" />
+    <keyboard-shortcut first-keystroke="alt escape" />
+    <keyboard-shortcut first-keystroke="ctrl space" />
+    <keyboard-shortcut first-keystroke="meta t" />
+  </action>
+  <action id="Editor Redo">
+    <keyboard-shortcut first-keystroke="meta y" />
   </action>
   <action id="EditorChooseLookupItem">
     <keyboard-shortcut first-keystroke="meta t" />
