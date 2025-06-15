@@ -21,6 +21,10 @@
     <keyboard-shortcut first-keystroke="ctrl space" />
     <keyboard-shortcut first-keystroke="meta t" />
   </action>
+  <action id="CommentByLineComment">
+    <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta c" />
+    <keyboard-shortcut first-keystroke="meta slash" />
+  </action>
   <action id="Editor Redo">
     <keyboard-shortcut first-keystroke="meta y" />
   </action>
@@ -37,18 +41,50 @@
     <keyboard-shortcut first-keystroke="meta right" />
     <keyboard-shortcut first-keystroke="end" />
   </action>
-  <action id="EditorScrollDown" />
-  <action id="EditorScrollUp" />
+  <action id="EditorScrollDown">
+    <keyboard-shortcut first-keystroke="ctrl down" />
+  </action>
+  <action id="EditorScrollUp">
+    <keyboard-shortcut first-keystroke="ctrl up" />
+  </action>
+  <action id="EditorSplitLine" />
+  <action id="EditorSwapSelectionBoundaries">
+    <keyboard-shortcut first-keystroke="ctrl o" />
+  </action>
+  <action id="EditorToggleCase">
+    <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta u" />
+  </action>
   <action id="Forward">
     <keyboard-shortcut first-keystroke="shift ctrl minus" />
     <mouse-shortcut keystroke="button5" />
     <keyboard-shortcut first-keystroke="meta alt minus" />
   </action>
+  <action id="Git.Branches">
+    <keyboard-shortcut first-keystroke="alt b" />
+  </action>
+  <action id="Git.ContextMenu">
+    <keyboard-shortcut first-keystroke="ctrl alt g" />
+  </action>
+  <action id="GotoSuperMethod">
+    <keyboard-shortcut first-keystroke="ctrl u" />
+  </action>
   <action id="GotoSymbol">
     <keyboard-shortcut first-keystroke="shift meta o" />
   </action>
+  <action id="HideSideWindows" />
   <action id="InsertInlineCompletionAction">
     <keyboard-shortcut first-keystroke="meta t" />
+  </action>
+  <action id="InsertInlineCompletionLineAction">
+    <keyboard-shortcut first-keystroke="meta right" />
+    <keyboard-shortcut first-keystroke="end" />
+    <keyboard-shortcut first-keystroke="shift ctrl t" />
+  </action>
+  <action id="LocalHistory">
+    <keyboard-shortcut first-keystroke="meta alt l" />
+  </action>
+  <action id="ManageRecentProjects">
+    <keyboard-shortcut first-keystroke="ctrl alt p" />
   </action>
   <action id="NextTab">
     <keyboard-shortcut first-keystroke="shift meta close_bracket" />
@@ -71,8 +107,24 @@
     <keyboard-shortcut first-keystroke="shift f10" />
     <keyboard-shortcut first-keystroke="f13" />
   </action>
+  <action id="ShowSearchHistory">
+    <keyboard-shortcut first-keystroke="alt down" />
+  </action>
   <action id="Terminal.ClearBuffer" />
+  <action id="ToggleBookmark">
+    <keyboard-shortcut first-keystroke="meta b" />
+  </action>
   <action id="VcsGroups">
     <keyboard-shortcut first-keystroke="alt g" />
+  </action>
+  <action id="VcsShowNextChangeMarker">
+    <keyboard-shortcut first-keystroke="alt f3" />
+    <keyboard-shortcut first-keystroke="alt f5" />
+    <keyboard-shortcut first-keystroke="alt page_down" />
+  </action>
+  <action id="VcsShowPrevChangeMarker">
+    <keyboard-shortcut first-keystroke="shift alt f3" />
+    <keyboard-shortcut first-keystroke="shift alt f5" />
+    <keyboard-shortcut first-keystroke="alt page_up" />
   </action>
 </keymap>
