@@ -4,6 +4,12 @@
     <keyboard-shortcut first-keystroke="shift alt back_space" />
     <keyboard-shortcut first-keystroke="meta y" />
   </action>
+  <action id="AceAction" />
+  <action id="AceLineAction" />
+  <action id="AceTargetAction" />
+  <action id="AceWordAction">
+    <keyboard-shortcut first-keystroke="alt n" />
+  </action>
   <action id="ActivateAIAssistantToolWindow">
     <keyboard-shortcut first-keystroke="meta 6" />
   </action>
@@ -56,6 +62,10 @@
   </action>
   <action id="EditorToggleCase">
     <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta u" />
+  </action>
+  <action id="EditorUnSelectWord">
+    <keyboard-shortcut first-keystroke="shift ctrl meta left" />
+    <keyboard-shortcut first-keystroke="shift ctrl left" />
   </action>
   <action id="Forward">
     <keyboard-shortcut first-keystroke="shift ctrl minus" />
